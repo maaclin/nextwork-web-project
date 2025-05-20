@@ -19,8 +19,7 @@ build:
       - echo "====== BEGINNING BUILD PHASE ======"
       - echo "Build started on `date`"
       - mvn -s settings.xml compile
-      - echo "====== BUILD PHASE COMPLETE ======"
-  
+      - echo "====== BUILD PHASE COMPLETE ======" 
   post_build:
     commands:
       - echo "Build completed on `date`"
